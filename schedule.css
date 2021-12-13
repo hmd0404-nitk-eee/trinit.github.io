@@ -1,0 +1,80 @@
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.btn-round {
+  display: flex;
+  height: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  background-color: #0daef3;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.btn-round:hover {
+  cursor: pointer;
+}
+
+.schedule_head {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.bgblue {
+  background-color: #0daef3;
+}
+
+.schedule_banner {
+  padding-top: 50px;
+  border-radius: 30px 30px 0 0;
+}
+
+.schedule_active {
+  color: #0daef3;
+  background-color: rgb(255, 255, 255);
+}
+
+.schedule_time {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  color: white;
+  background-color: #171c26;
+  text-align: right;
+  border-radius: 20px 0 0 20px;
+}
+
+.schedule_info {
+  background: white;
+  font-size: 2em;
+  line-height: 1;
+  font-style: bold;
+}
+
+.schedule_tab {
+  background: white;
+  display: none;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule_tab .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .schedule_time {
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,181 @@
+#home{
+    background-image: url(lottie/abstract-techno-background-with-connecting-lines.jpg) !important;
+        background-repeat: no-repeat;
+  }
+  #bg,#id1{
+    background-color: #171c26;
+    border-color: #171c26;
+  }
+  #logo1,#logo2,#logo3{
+    border: none;
+  }
+  .theme{
+    border-radius: 30px;
+  }
+  
+  #theme2 {
+    color: white;
+    font-weight: 500;
+    font-size: 4em;
+      background-size: 100%;
+      background: linear-gradient(to bottom, #171c26 60% ,#0daef3 60% 90%,#171c26 90% 100%);
+  }
+  #theme1 {
+    color: transparent;
+    font-weight: 500;
+    font-size: 1em;
+      background-size: 100%;
+      background: linear-gradient(to bottom, #171c26 60% ,#0daef3 60% 90%,#171c26 90% 100%);
+  }
+  #theme4 {
+    color: white;
+    font-weight: 500;
+    font-size: 4em;
+      background-size: 100%;
+      background: linear-gradient(to bottom, #171c26 60% ,#ff7700 60% 90%,#171c26 90% 100%);
+  }
+  #theme3 {
+    color: transparent;
+    font-weight: 500;
+    font-size: 4em;
+      background-size: 100%;
+      background: linear-gradient(to bottom, #171c26 60% ,#ff7700 60% 90%,#171c26 90% 100%);
+  }
+  #prizes{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 500;
+  }
+  #prize1,#prize4{
+    border-radius: 60px;
+    margin-right:  8%;
+    margin-left: 0;
+  }
+  #prize2,#prize5{
+      border-radius: 60px;
+      margin-left: 6%;
+      margin-right:  6%;
+  }
+  #prize3,#prize6{
+    border-radius: 60px;
+    margin-left: 8%;
+    margin-right:  0;
+  }
+  #prize1s,#prize2s,#prize3s{
+    border-radius: 60px;
+  
+    font-size: 1.9em;
+    padding: 15%;
+    padding-left: 20%;
+    padding-bottom: 17%;
+    padding-top: 17%;
+  }
+  #prize1,#prize2,#prize3{
+    font-size: 40px;
+    padding: 15%;
+  }
+  #prize4s,#prize5s,#prize6s{
+    border-radius: 60px;
+  
+    font-size:1.2em;
+    padding: 15%;
+    font-weight: 500;
+    margin-bottom: 20%;
+  }
+  #prize4,#prize5{
+    font-size:22px;
+    padding: 10%;
+    font-weight: 500;
+    margin-bottom: 20%;
+    /* padding: 25%; */
+  }
+  #prize6{
+    font-size: 22px;
+    padding: 12%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+  }
+  #faq2 {
+    color: white;
+    font-weight: 500;
+    font-size: 90px;
+      background-size: 100%;
+      background: linear-gradient(to bottom, #171c26 60% ,#0daef3 60% 90%,#171c26 90% 100%);
+  }
+  #faq1 {
+    color: transparent;
+    font-weight: 500;
+    font-size: 90px;
+      background-size: 100%;
+      background: linear-gradient(to bottom, #171c26 60% ,#0daef3 60% 90%,#171c26 90% 100%);
+  }
+  #theme_head{
+    font-size: 40px;
+  }
+  #faq-accordion{
+    border: solid 2px #0daef3;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .faq-card-header{
+    background-color: #0daef3 !important;
+  }
+  .faq-card-body{
+    background-color: white;
+  }
+  .faq-btn{
+    background-color: #0daef3;
+    box-shadow: 0 !important;
+    font-size: larger;
+    color:white;
+  }
+  #heading1{
+    margin-top: 140px;
+  }
+  .accordion button{
+    background-color: #0daef3;
+    box-shadow: none;
+    color:white;
+  }
+  .accordion button:hover{
+    background-color: #0daef3;
+    box-shadow: none;
+    color:white;
+  }
+  .accordion button:focus{
+    background-color: #0daef3;
+    box-shadow: none;
+    color:white;
+  }
+  #FAQs{
+  margin-top: 8vw;
+  }
+  #FAQs2{
+    margin-top: 10vw;
+  }
+
+  /*#logo1,#logo2,#logo3{
+  }*/
+  
+  .about-inner-text{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .about-img{
+    width: 100%;
+    height: 100%;
+  }
+  .about-inner-img1{
+    background-image:linear-gradient(90deg, rgba(255, 255, 255, 0), #171c26 ), url('./lottie/about.jpg');
+    width: 100%;
+    height: 415px;
+  }
+  .about-inner-img2{
+    background-image:linear-gradient(270deg, rgba(255, 255, 255, 0), #171c26 ), url('./lottie/about.jpg');
+    width: 100%;
+    height: 415px;
+    text-align: center;
+  }
