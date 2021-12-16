@@ -1,693 +1,460 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Tri-Nit Hackathon</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="schedule.css">
-  <link rel="stylesheet" href="utilities.css">
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tri-Nit Hackathon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="schedule.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body id="bg">
-	<header>
-		<nav class="navbar bg-nav text-white" id="nav">
-			<div class="navbar-brand fw-bold ps-3">
-			  <a href="#">TriNIT HACKATHON</a>
-			</div>
-			<ul class="nav-links d-flex m-0">
-			  <i class="hide-toggle gg-close"></i>
-			  <li class="nav-link"><a href="#home">Home</a></li>
-			  <li class="nav-link"><a href="#about">About</a></li>
-			  <li class="nav-link"><a href="#theme">Theme</a></li>
-			  <li class="nav-link"><a href="#prizes">Prizes</a></li>
-			  <li class="nav-link"><a href="#schedule">Schedule</a></li>
-			  <li class="nav-link"><a href="#sponsors">Sponsors</a></li>
-			  <li class="nav-link"><a class="d-block d-sm-block d-lg-none" href="#FAQs2">FAQs</a>
-	
-							<a class="d-none d-sm-block" href="#FAQs">FAQs</a
-						</li>
-			  <li class="nav-link"><a href="#contact">Contact</a></li>
-			</ul>
-			<div class="menu-toggle">
-			  <i class="d-sm-block d-sm-none gg-menu-right"></i>
-			</div>
-		</nav>
-	</header>
+    <header>
+        <nav class="navbar bg-nav text-white" id="nav">
+            <div class="navbar-brand fw-bold ps-3">
+                <a href="#">TriNIT Hackathon</a>
+            </div>
+            <ul class="nav-links d-flex m-0">
+                <i class="hide-toggle gg-close"></i>
+                <li class="nav-link"><a href="#home">Home</a></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#theme">Tracks</a></li>
+                <!--<li class="nav-link"><a href="#prizes">Prizes</a></li>
+                <li class="nav-link"><a href="#schedule">Schedule</a></li>-->
+                <li class="nav-link"><a href="#sponsors">Sponsors</a></li>
+                <li class="nav-link"><a class="d-block d-sm-block d-lg-none" href="#FAQs2">FAQs</a>
 
-	<div class="section" id="home">
-		<section class="banner_part ">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6 col-xl-6">
-                <div class="banner_text">
-                    <div class="banner_text_iner">
-                        <h5>NITW, NITK & NITT Welcomes you to</h5>
-                        <h1>Tri-NIT HACKATHON</h1>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, alias deleniti vel distinctio, voluptatibus quasi unde sit nostrum similique maiores id eum magnam? In amet sit ab dolor dolorum soluta?
-                        </p>
-                        <div class="mt-5 d-flex justify-content-center align-items-center">
-                            <button class="btn-R">
-                              <svg width="180px" height="60px" class="border" style="position: relative;">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-								<span style="position: relative; top:-40px">Register!!!</span>
-                              </svg>
+                    <a class="d-none d-sm-block" href="#FAQs">FAQs</a </li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="d-sm-block d-sm-none gg-menu-right"></i>
+            </div>
+        </nav>
+    </header>
 
-                            </button>
+    <div class="section" id="home">
+        <section class="banner_part ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-xl-6">
+                        <div class="banner_text">
+                            <div class="banner_text_iner">
+                                <h5>NITK, NITW & NITT Welcomes you to</h5>
+                                <h1>Tri-NIT Hackathon</h1>
+                                <p>
+                                    Three of the most prestigious engineering colleges in the country compete in a
+                                    battle of wits in a coding competition like no other. ACM NITK, Spider - NIT Trichy
+                                    and CSEA - NIT Warangal proudly present the TriNITarian Coding Cup. The perfect
+                                    collaboration bringing you a golden opportunity to test your skills against the best
+                                    of the best for cash prizes, goodies and more!
+                                </p>
+                                <div class="mt-5 d-flex justify-content-center align-items-center">
+                                    <button class="btn-R">
+                                        <svg width="180px" height="60px" class="border" style="position: relative;">
+                                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                            <span style="position: relative; top:-45px">Coming Soon</span>
+                                        </svg>
+
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
-        </div>
-    </section>
-	</div>
-
-	<div class="section" id="about">
-		<div class="row mx-auto">
-			<div class="text-right col-12 col-sm-6 d-flex align-items-center mx-0 px-0">
-				<div class="about-inner-img1">
-
-        </div>
-			</div>
-			<div class="col-12 col-sm-6 d-flex align-items-center mx-0 px-0">
-				<div data-aos="fade-left" data-aos-duration="700" class="about-text">
-					<p class="text-left text-uppercase about-inner-text">Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. </p>
-				</div>
-			</div>
-		</div>
-
-		<div class="row mx-auto">
-			<div class="col-12 col-sm-6 d-flex align-items-center order-2 order-sm-1">
-					<div data-aos="fade-right" data-aos-duration="700" class="about-text">
-						<p class="text-right text-uppercase about-inner-text">Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. </p>
-					</div>
-			</div>
-			<div class="mx-auto col-12 col-sm-6 d-flex align-items-center  order-1 order-sm-2">
-				<div class="about-inner-img2">
-        </div>
-			</div>
-
-		</div>
-
-
-	</div>
-
-
-
-
-<div class="section" id="theme">
-	<div>
-		<div class="container">
-			<div class="row">
-				<div class="col-3" >
-					<span id="theme2"><span id="theme1">.</span>Theme<span id="theme1">.....</span></span>
-				</div>
-			</div>
-			<div class="row">
-					<div class="col-md-6  mt-5">
-					<div data-aos="fade-down-right" data-aos-duration="700" class="card" id="id1">
-						<img class="theme" src="lottie/53882-distance-education.gif" alt="Card image cap">
-						<div class="card-title">
-							<h1 class="text-center text-white mt-4">Edtech</h1>
-						</div>
-					</div>
-			</div>
-			<div class="col-md-6  mt-5">
-					<div data-aos="fade-down-left" data-aos-duration="700" class="card" id="id1">
-						<img class="theme" src="lottie/53912-doctor-consultation-online-animation.gif" alt="Card image cap">
-						<div class="card-title">
-							<h1 class="text-center text-white mt-4">Healthcare</h1>
-						</div>
-					</div>
-			</div>
-
-
-			<div class="col-md-6 mb-4 mt-4">
-			<div data-aos="fade-up-right" data-aos-duration="700" class="card " id="id1">
-				<img class="theme" src="lottie/69760-currency.gif" alt="Card image cap">
-				<div class="card-title">
-					<h1 class="text-center text-white mt-4">FinTech</h1>
-				</div>
-			</div>
-	</div>
-	<div class="col-md-6 mb-4 mt-4">
-			<div data-aos="fade-up-left" data-aos-duration="700" class="card" id="id1">
-				<img class="theme" src="lottie/76014-exclusive-solution.gif" alt="Card image cap">
-				<div class="card-title">
-					<span><h1 class="text-center text-white mt-4">Open Innovation</h1></spam>
-				</div>
-			</div>
-	</div>
-
-			</div>
-		</div>
-	</div>
-</div>
-<div class="section" id="prizes">
-	<div class="container">
-
-		<div class="d-lg-none">
-			<div class="row mb-5" >
-				<div class="col-3" >
-					<span id="theme3">.</span><span id="theme4">Prizes</span><span id="theme3">.....</span>
-				</div>
-			</div>
-		<div class="row mt-5">
-				<div class="col-6" >
-					<div data-aos="zoom-out-right" data-aos-duration="500" class="card" id="prize1s">
-						Prize<br>₹25000
-					</div>
-				</div>
-				<div class="col-6" >
-					<div data-aos="zoom-out-left" data-aos-duration="500" class="card" id="prize4s">
-						Google Cloud Subscription 300 $ credits free
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-6" >
-					<div data-aos="zoom-out-right" data-aos-duration="500" class="card" id="prize2s">
-						Prize <br>₹20000
-					</div>
-				</div>
-				<div class="col-6" >
-					<div data-aos="zoom-out-left" data-aos-duration="500" class="card" id="prize5s">
-						AWS Subscription
-							one year
-							Free tier
-					</div>
-				</div>
-			</div>
-<div class="row">
-	<div class="col-6" >
-					<div data-aos="zoom-out-right" data-aos-duration="500" class="card" id="prize3s">
-						Prize <br>₹15000
-					</div>
-				</div>
-				<div class="col-6" >
-					<div data-aos="zoom-out-left" data-aos-duration="500" class="card" id="prize6s">
-						Participation certificate and goodies
-					</div>
-				</div>
-</div>
-
-		</div>
-		<div class="d-none d-lg-block">
-			<div class="row mb-5">
-
-					<div class="col-3" >
-				</div>
-				<div class="col-3" >
-				</div>
-				<div class="col-3" >
-				</div>
-				<div class="col-3" >
-					<span id="theme3">.....</span><span id="theme4">Prizes</span><span id="theme3">..</span>
-				</div>
-			</div>
-			<div class="row mt-5 md-5">
-				<div class="col-md-4" >
-					<div data-aos="flip-down" data-aos-duration="700" class="card" id="prize1">
-						Prize of <br>₹ 25000
-					</div>
-				</div>
-				<div class="col-md-4" >
-					<div data-aos="flip-down" data-aos-duration="700" class="card" id="prize2">
-						Prize of<br> ₹ 20000
-					</div>
-				</div>
-				<div class="col-md-4" >
-					<div data-aos="flip-down" data-aos-duration="700" class="card" id="prize3">
-						Prize of  <br>₹ 15000
-					</div>
-				</div>
-			</div>
-			<div class="row mt-5">
-				<div class="col-md-4" >
-					<div data-aos="flip-up" data-aos-duration="700" class="card" id="prize4">
-					<h1>Google Cloud Subscription 300 $ credits free</h1>
-					</div>
-				</div>
-				<div class="col-md-4" >
-					<div data-aos="flip-up" data-aos-duration="700" class="card" id="prize5">
-						<h1>AWS Subscription
-							1 year<br>
-							Free tier</h1>
-					</div>
-				</div>
-				<div class="col-md-4" >
-					<div data-aos="flip-up" data-aos-duration="700" class="card" id="prize6">
-						<h1>Participation certificate and goodies</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-
-</div>
-
-	<div class="section" id="schedule">
-    <div class="container ">
-      <div class="row">
-				<div class="col-md-3" >
-					<span id="theme2"><span id="theme1">.</span>Schedule<span id="theme1">.....</span></span>
-				</div>
-			</div>
-    <div class="schedule_banner bgblue mt-5">
-      <div class="mx-auto schedule_head p-4 bgblue">
-          December 2021
-      </div>
-      <div class="row p-3 m-0 bgblue">
-        <div class="col-sm d-flex justify-content-center bgblue">
-          <div id="but0" class="btn-round schedule_active">23</div>
-        </div>
-        <div class="col-sm d-flex justify-content-center bgblue">
-          <div id="but1" class="btn-round">24</div>
-        </div>
-        <div class="col-sm d-flex justify-content-center bgblue">
-          <div id="but2" class="btn-round">25</div>
-        </div>
-      </div>
+        </section>
     </div>
 
-    <div id="tab0" class="schedule_tab container-fluid p-5">
-      <div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+    <div class="section" id="about">
+        <div class="row mx-auto">
+            <div class="text-right col-12 col-sm-6 d-flex align-items-center mx-0 px-0">
+                <div class="about-inner-img1">
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex align-items-center mx-0 px-0">
+                <div data-aos="fade-left" data-aos-duration="700" class="about-text container">
+                    <p class="text-left text-uppercase about-inner-text">Lorem Ipsum is a dummy text. Lorem Ipsum is a
+                        dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy
+                        text. Lorem Ipsum is a dummy text. </p>
+                </div>
+            </div>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    </div>
-  </div><div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+
+        <div class="row mx-auto">
+            <div class="col-12 col-sm-6 d-flex align-items-center order-2 order-sm-1">
+                <div data-aos="fade-right" data-aos-duration="700" class="about-text container">
+                    <p class="text-right text-uppercase about-inner-text">Lorem Ipsum is a dummy text. Lorem Ipsum is a
+                        dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy
+                        text. Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text. </p>
+                </div>
+            </div>
+            <div class="mx-auto col-12 col-sm-6 d-flex align-items-center  order-1 order-sm-2">
+                <div class="about-inner-img2">
+                </div>
+            </div>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
     </div>
-  </div><div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+
+    <div class="section" id="theme">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <span id="theme2"><span id="theme1">.</span>Tracks<span id="theme1">.....</span></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6  mt-5">
+                        <div data-aos="fade-down-right" data-aos-duration="700" class="card" id="id1">
+                            <img class="theme" src="lottie/53882-distance-education.gif" alt="Card image cap">
+                            <div class="card-title">
+                                <h1 class="text-center text-white mt-4">Dev/ML</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6  mt-5">
+                        <div data-aos="fade-down-left" data-aos-duration="700" class="card" id="id1">
+                            <img class="theme" src="lottie/53912-doctor-consultation-online-animation.gif"
+                                alt="Card image cap">
+                            <div class="card-title">
+                                <h1 class="text-center text-white mt-4">Systems</h1>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 mb-4 mt-4">
+                        <div data-aos="fade-up-right" data-aos-duration="700" class="card " id="id1">
+                            <img class="theme" src="lottie/69760-currency.gif" alt="Card image cap">
+                            <div class="card-title">
+                                <h1 class="text-center text-white mt-4">Blockchain</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 mt-4">
+                        <div data-aos="fade-up-left" data-aos-duration="700" class="card" id="id1">
+                            <img class="theme" src="lottie/76014-exclusive-solution.gif" alt="Card image cap">
+                            <div class="card-title">
+                                <span>
+                                    <h1 class="text-center text-white mt-4">Digital Electronics</h1>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
     </div>
-  </div>
-  </div>
 
-  <div id="tab1" class="schedule_tab container-fluid p-5">
-      <div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          10:30pm
+    <div class="section" id="sponsors">
+
+        <div class="container">
+
+
+            <div class="d-none d-md-none d-lg-block">
+                <div class="row mb-5" id="heading1">
+                    <div class="col-3">
+                    </div>
+                    <div class="col-2">
+                    </div>
+                    <div class="col-3">
+                    </div>
+                    <div class="col-4">
+                        <span id="theme3">....</span><span id="theme4">Sponsors</span><span id="theme3">..</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center w-100">
+                    <div data-aos="fade-down" data-aos-duration="700" class="card ml-2 mr-2 w-50 h-50" id="logo2">
+                        <img src="lottie/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="d-block d-sm-block d-lg-none">
+                <div class="row mb-5" id="heading1">
+                    <div class="col-5">
+                        <span id="theme3">.</span><span id="theme4">Sponsers</span><span id="theme3">....</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <div data-aos="fade-down" data-aos-duration="700" class="card ml-2 mr-2" id="logo2">
+                        <img src="lottie/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+
+
     </div>
-  </div><div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+
+    <div class="d-block d-sm-block d-lg-none">
+        <div id="FAQs2">
+            <div class="container">
+                <div class="row" id="heading1">
+                    <div class="col-md-3">
+                        <span id="faq2"><span id="faq1">.</span>FAQ's<span id="faq1">........</span></span>
+                    </div>
+                </div>
+
+                <div class="mt-5 mb-5">
+                    <div class="accordion" id="faq-accordion">
+                        <div class="card">
+
+                            <div class="card-header faq-card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block faq-btn" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="row">
+                                            <div class="col-10 text-left faq-btn">Here goes first FAQs question.</div>
+                                            <div class="col-2 text-right faq-btn"><i class="fa fa-plus"
+                                                    style="font-size: 0.7em;"></i></div>
+                                        </div>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#faq-accordion">
+                                <div class="card-body faq-card-body">
+                                    Here goes first FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing
+                                    elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quaerat.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+
+                            <div class="card-header faq-card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div class="row">
+                                            <div class="col-10 text-left faq-btn">Here goes second FAQs question.</div>
+                                            <div class="col-2 text-right faq-btn"><i class="fa fa-plus"
+                                                    style="font-size: 0.7em;"></i></div>
+                                        </div>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#faq-accordion">
+                                <div class="card-body faq-card-body">
+                                    Here goes second FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing
+                                    elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quaerat.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header faq-card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <div class="row">
+                                            <div class="col-10 text-left faq-btn">Here goes third FAQs question.</div>
+                                            <div class="col-2 text-right faq-btn"><i class="fa fa-plus"
+                                                    style="font-size: 0.7em;"></i></div>
+                                        </div>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#faq-accordion">
+                                <div class="card-body faq-card-body">
+                                    Here goes third FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing
+                                    elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quaerat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
     </div>
-  </div><div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+    <div class="d-none d-md-none d-lg-block">
+        <div class="section" id="FAQs">
+            <div class="container">
+                <div class="row" id="heading1">
+                    <div class="col-md-3">
+                        <span id="faq2"><span id="faq1">.</span>FAQ's<span id="faq1">........</span></span>
+                    </div>
+                </div>
+
+                <div class="mt-5 mb-5">
+                    <div class="accordion" id="faq-accordion">
+                        <div class="card">
+
+                            <div class="card-header faq-card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block faq-btn" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <div class="row">
+                                            <div class="col-10 text-left faq-btn">Here goes first FAQs question.</div>
+                                            <div class="col-2 text-right faq-btn"><i class="fa fa-plus"
+                                                    style="font-size: 0.7em;"></i></div>
+                                        </div>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#faq-accordion">
+                                <div class="card-body faq-card-body">
+                                    Here goes first FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing
+                                    elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quaerat.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card">
+
+                            <div class="card-header faq-card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div class="row">
+                                            <div class="col-10 text-left faq-btn">Here goes second FAQs question.</div>
+                                            <div class="col-2 text-right faq-btn"><i class="fa fa-plus"
+                                                    style="font-size: 0.7em;"></i></div>
+                                        </div>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#faq-accordion">
+                                <div class="card-body faq-card-body">
+                                    Here goes second FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing
+                                    elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quaerat.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header faq-card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <div class="row">
+                                            <div class="col-10 text-left faq-btn">Here goes third FAQs question.</div>
+                                            <div class="col-2 text-right faq-btn"><i class="fa fa-plus"
+                                                    style="font-size: 0.7em;"></i></div>
+                                        </div>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#faq-accordion">
+                                <div class="card-body faq-card-body">
+                                    Here goes third FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing
+                                    elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quaerat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
     </div>
-  </div>
-  </div>
 
-  <div id="tab2" class="schedule_tab container-fluid p-5">
-      <div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          11:30pm
+
+
+    <!--FOOTER-->
+    <footer class="section" id="contact">
+        <div class="top_header">
+            <section>
+                <span><i class="fa fa-map-marker"></i></span>
+                <span>NITK, NITT, NITW</span>
+            </section>
+            <section>
+                <span><i class="fa fa-phone"></i></span>
+                <span>+91 7068502705</span>
+            </section>
+            <section>
+                <span><i class="fa fa-envelope"></i></span>
+                <span>trinit@hack.com</span>
+            </section>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    </div>
-  </div><div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+        <span class="border-shape"></span>
+        <div class="bottom_content">
+            <section>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-telegram"></i></a>
+            </section>
+            <section>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#theme">Tracks</a>
+                <!--<a href="#prizes">Prizes</a>
+                <a href="#schedule">Schedule</a>-->
+                <a href="#faq">FAQs </a>
+            </section>
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    </div>
-  </div><div class="row mx-5 my-5 bg-white">
-        <div class="col col-lg-2 p-4 schedule_time">
-          9:30pm
+        <div class="copyright">
+            Copyright © 2021 TriNIT Hackathon - All rights reserved
         </div>
-        <div class="col p-4 d-flex justify-content-center align-items-center schedule_info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    </div>
-  </div>
-  </div>
-  </div>
-</div>
-<div class="section" id="sponsors">
-
-			<div class="container" >
-
-
-				<div class="d-none d-md-none d-lg-block">
-					<div class="row mb-5" id="heading1" >
-						<div class="col-3" >
-						</div>
-						<div class="col-2" >
-						</div>
-						<div class="col-3" >
-						</div>
-						<div class="col-4" >
-						<span id="theme3">....</span><span id="theme4">Sponsers</span><span id="theme3">..</span>
-						</div>
-</div>
-				<div class="row mb-5">
-					<div class="col-md-4" >
-
-						<div data-aos="fade-down-right" data-aos-duration="700" class="card mr-3" id="logo1">
-							<img src="lottie/logo.png" alt="">
-						</div>
-					</div>
-					<div class="col-md-4">
-
-						<div data-aos="fade-down" data-aos-duration="700" class="card ml-2 mr-2" id="logo2">
-							<img src="lottie/logo.png" alt="">
-						</div>
-					</div>
-					<div class="col-md-4">
-
-						<div data-aos="fade-down-left" data-aos-duration="700" class="card ml-3" id="logo3">
-							<img src="lottie/logo.png" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="row mt-5 mb-4">
-					<div class="col-md-4" >
-
-						<div data-aos="fade-up-right" data-aos-duration="700" class="card mr-3" id="logo1">
-							<img src="lottie/logo.png" alt="">
-						</div>
-					</div>
-					<div class="col-md-4">
-
-						<div data-aos="fade-up" data-aos-duration="700" class="card ml-2 mr-2" id="logo2">
-							<img src="lottie/logo.png" alt="">
-						</div>
-					</div>
-					<div class="col-md-4">
-
-						<div data-aos="fade-up-left" data-aos-duration="700" class="card ml-3" id="logo3">
-							<img src="lottie/logo.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		<div class="d-block d-sm-block d-lg-none">
-			<div class="row mb-5" id="heading1" >
-					<div class="col-5" >
-						<span id="theme3">.</span><span id="theme4">Sponsers</span><span id="theme3">....</span>
-					</div>
-				</div>
-			<div class="row mt-4 ">
-				<div data-aos="zoom-out" data-aos-duration="700" class="card" id="logo1">
-					<img src="lottie/logo.png" alt="">
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div data-aos="zoom-out" data-aos-duration="700" class="card" id="logo2">
-					<img src="lottie/logo.png" alt="">
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div data-aos="zoom-out" data-aos-duration="700" class="card" id="logo3">
-					<img src="lottie/logo.png" alt="">
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div data-aos="zoom-out" data-aos-duration="700" class="card" id="logo1">
-					<img src="lottie/logo.png" alt="">
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div data-aos="zoom-out" data-aos-duration="700" class="card" id="logo2">
-					<img src="lottie/logo.png" alt="">
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div data-aos="zoom-out" data-aos-duration="700" class="card" id="logo3">
-					<img src="lottie/logo.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	</div>
-
-<div class="d-block d-sm-block d-lg-none">
-	<div id="FAQs2">
-		<div class="container">
-			<div class="row" id="heading1">
-				<div class="col-md-3" >
-					<span id="faq2"><span id="faq1">.</span>FAQ's<span id="faq1">........</span></span>
-				</div>
-			</div>
-
-			<div class="mt-5 mb-5">
-				<div class="accordion" id="faq-accordion">
-					<div class="card">
-
-						<div class="card-header faq-card-header" id="headingOne">
-							<h2 class="mb-0">
-								<button class="btn btn-block faq-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									<div class="row">
-										<div class="col-10 text-left faq-btn">Here goes first FAQs question.</div>
-										<div class="col-2 text-right faq-btn"><i class="fa fa-plus" style="font-size: 0.7em;"></i></div>
-									</div>
-								</button>
-							</h2>
-						</div>
-
-						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faq-accordion">
-							<div class="card-body faq-card-body">
-								Here goes first FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-							</div>
-						</div>
-
-					</div>
-
-					<div class="card">
-
-						<div class="card-header faq-card-header" id="headingTwo">
-							<h2 class="mb-0">
-								<button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									<div class="row">
-										<div class="col-10 text-left faq-btn">Here goes second FAQs question.</div>
-										<div class="col-2 text-right faq-btn"><i class="fa fa-plus" style="font-size: 0.7em;"></i></div>
-									</div>
-								</button>
-							</h2>
-						</div>
-
-						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq-accordion">
-							<div class="card-body faq-card-body">
-								Here goes second FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-							</div>
-						</div>
-
-					</div>
-					<div class="card">
-						<div class="card-header faq-card-header" id="headingThree">
-							<h2 class="mb-0">
-								<button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									<div class="row">
-										<div class="col-10 text-left faq-btn">Here goes third FAQs question.</div>
-										<div class="col-2 text-right faq-btn"><i class="fa fa-plus" style="font-size: 0.7em;"></i></div>
-									</div>
-								</button>
-							</h2>
-						</div>
-
-						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq-accordion">
-							<div class="card-body faq-card-body">
-								Here goes third FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br><br><br>
-		</div>
-	</div>
-</div>
-<div class="d-none d-md-none d-lg-block">
-	<div class="section" id="FAQs">
-		<div class="container" >
-			<div class="row" id="heading1">
-				<div class="col-md-3" >
-					<span id="faq2"><span id="faq1">.</span>FAQ's<span id="faq1">........</span></span>
-				</div>
-			</div>
-
-			<div class="mt-5 mb-5">
-				<div class="accordion" id="faq-accordion">
-					<div class="card">
-
-						<div class="card-header faq-card-header" id="headingOne">
-							<h2 class="mb-0">
-								<button class="btn btn-block faq-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									<div class="row">
-										<div class="col-10 text-left faq-btn">Here goes first FAQs question.</div>
-										<div class="col-2 text-right faq-btn"><i class="fa fa-plus" style="font-size: 0.7em;"></i></div> 
-									</div>
-								</button>
-							</h2>
-						</div>
-
-						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faq-accordion">
-							<div class="card-body faq-card-body">
-								Here goes first FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-							</div>
-						</div>
-
-					</div>
-
-					<div class="card">
-
-						<div class="card-header faq-card-header" id="headingTwo">
-							<h2 class="mb-0">
-								<button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									<div class="row">
-										<div class="col-10 text-left faq-btn">Here goes second FAQs question.</div>
-										<div class="col-2 text-right faq-btn"><i class="fa fa-plus" style="font-size: 0.7em;"></i></div>
-									</div>
-								</button>
-							</h2>
-						</div>
-
-						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq-accordion">
-							<div class="card-body faq-card-body">
-								Here goes second FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-							</div>
-						</div>
-
-					</div>
-					<div class="card">
-						<div class="card-header faq-card-header" id="headingThree">
-							<h2 class="mb-0">
-								<button class="btn btn-block faq-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									<div class="row">
-										<div class="col-10 text-left faq-btn">Here goes third FAQs question.</div>
-										<div class="col-2 text-right faq-btn"><i class="fa fa-plus" style="font-size: 0.7em;"></i></div>
-									</div>
-								</button>
-							</h2>
-						</div>
-
-						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq-accordion">
-							<div class="card-body faq-card-body">
-								Here goes third FAQs answer. Lorem Ipusm dolor sit amet consectetur adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br><br><br>
-		</div>
-	</div>
-</div>
-
-
-
-	<!--FOOTER-->
-<footer class="section" id="contact">
-  <div class="top_header">
-  <section>
-  <span><i class="fa fa-map-marker"></i></span>
-  <span>NIT Warangal, Telangana 506004</span>
-  </section>
-  <section>
-  <span><i class="fa fa-phone"></i></span>
-  <span>+91 7068502705</span>
-  </section>
-  <section>
-  <span><i class="fa fa-envelope"></i></span>
-  <span>trinit@hack.com</span>
-  </section>
-  </div>
-  <span class="border-shape"></span>
-  <div class="bottom_content">
-  <section>
-  <a href="#"><i class="fa fa-facebook"></i></a>
-  <a href="#"><i class="fa fa-instagram"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-telegram"></i></a>
-  </section>
-  <section>
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#theme">Theme</a>
-  <a href="#prizes">Prizes</a>
-  <a href="#schedule">Schedule</a>
-  <a href="#faq">FAQs </a>
-  </section>
-  </div>
-  <div class="copyright">
-  Copyright © 2021 TriNIT HACKATHON - All rights reserved
-  </div>
-  </footer>
-  <script>
-    const hideToggle = document.querySelector(".hide-toggle");
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
-hideToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("hide");
-});
-menuToggle.addEventListener("click", () => {
-  if (navLinks.classList.contains("hide")) {
-    navLinks.classList.remove("hide");
-    navLinks.classList.toggle("show");
-  }
-});
-  </script>
+    </footer>
+    <script>
+        const hideToggle = document.querySelector(".hide-toggle");
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        hideToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("hide");
+        });
+        menuToggle.addEventListener("click", () => {
+            if (navLinks.classList.contains("hide")) {
+                navLinks.classList.remove("hide");
+                navLinks.classList.toggle("show");
+            }
+        });
+    </script>
 </body>
 <script>
-    var activeButton = document.getElementById("but0");
-    var activeTab = document.getElementById("tab0");
-    var btn = document.getElementsByClassName("btn-round");
-    activeTab.style.display = 'block';
-    for (let i = 0; i < btn.length; i++) {
-      btn[i].addEventListener('click', function () {
-        activeButton.classList.remove('schedule_active');
-        activeTab.style.display = 'none';
-        activeButton = this;
-        activeButton.classList.add('schedule_active')
-        activeTab = document.getElementById("tab"+i);
-        activeTab.style.display = 'block';
-      });
-    }
+    //Fixed Navbar Top and Scroll
+    window.addEventListener("scroll", function () {
+        var nav = document.querySelector("header nav");
+        nav.classList.toggle("nav_opaque", window.scrollY > 0);
+    });
 
-	//Fixed Navbar Top and Scroll
-	window.addEventListener("scroll", function() {
-		var nav = document.querySelector("header nav");
-		nav.classList.toggle("nav_opaque", window.scrollY > 0);
-	});
+    //Animate on Scroll Init
+    AOS.init();
+</script>
 
-	//Animate on Scroll Init
-	AOS.init();
-  </script>
 </html>
