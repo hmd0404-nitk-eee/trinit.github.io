@@ -93,9 +93,6 @@ footer .border-shape::after {
 
 footer .bottom_content section {
   padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: Center;
 }
 
 .bottom_content a {
@@ -171,9 +168,10 @@ nav a:active {
   color: inherit;
 }
 
-.nav-link,
-.nav-link:hover {
-  color: inherit;
+
+
+.nav-links .nav-link:hover {
+  color: #ff7700;
 }
 
 .navbar .menu-toggle {
@@ -406,7 +404,7 @@ nav a:active {
 .banner_part .banner_text p {
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #777777;
 }
 
@@ -500,7 +498,7 @@ nav a:active {
 @media (max-width: 576px) {
   .banner_part:after {
     position: absolute;
-    top: 150px;
+    top: 10vh;
     max-width: 100%;
     max-height: 100%;
     content: "";
@@ -629,4 +627,50 @@ svg {
   color: white;
   font-size: 18px;
   font-weight: 100;
+}
+
+button {
+  color: #ecf0f1;
+  background: #e74c3c;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  font-size: 50px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  padding: 0
+}
+.plus,
+.minus {
+  color: #fff;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .5s all ease-out;
+}
+.plus {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+button.active .plus {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+.minus {
+  opacity: 0;
+  transform: rotate(-90deg);
+}
+button.active .minus {
+  opacity: 1;
+  transform: rotate(0deg);
 }

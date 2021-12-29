@@ -87,7 +87,6 @@
         <div class="row mx-auto">
             <div class="text-right col-12 col-sm-6 d-flex align-items-center mx-0 px-0">
                 <div class="about-inner-img1">
-
                 </div>
             </div>
             <div class="col-12 col-sm-6 d-flex align-items-center mx-0 px-0">
@@ -129,7 +128,7 @@
                         <div data-aos="fade-down-right" data-aos-duration="700" class="card" id="id1">
                             <img class="theme" src="lottie/devML2.gif" alt="Card image cap">
                             <div class="card-title">
-                                <h1 class="text-center text-white mt-4">Dev/ML</h1>
+                                <h1 class="text-center text-white mt-4">Dev</h1>
                             </div>
                         </div>
                     </div>
@@ -137,7 +136,7 @@
                         <div data-aos="fade-down-left" data-aos-duration="700" class="card" id="id1">
                             <img class="theme" src="lottie/systems2.gif" alt="Card image cap">
                             <div class="card-title">
-                                <h1 class="text-center text-white mt-4">Systems</h1>
+                                <h1 class="text-center text-white mt-4">ML</h1>
                             </div>
                         </div>
                     </div>
@@ -147,7 +146,7 @@
                         <div data-aos="fade-up-right" data-aos-duration="700" class="card " id="id1">
                             <img class="theme" src="lottie/69760-currency.gif" alt="Card image cap">
                             <div class="card-title">
-                                <h1 class="text-center text-white mt-4">Blockchain</h1>
+                                <h1 class="text-center text-white mt-4">Blockchain/System</h1>
                             </div>
                         </div>
                     </div>
@@ -454,16 +453,12 @@
                 <span>NITK, NITT, NITW</span>
             </section>
             <section>
-                <span><i class="fa fa-phone"></i></span>
-                <span>+91 7068502705</span>
-            </section>
-            <section>
                 <span><i class="fa fa-envelope"></i></span>
                 <span>trinit@hack.com</span>
             </section>
         </div>
         <span class="border-shape"></span>
-        <div class="bottom_content">
+        <div class="bottom_content d-flex flex-column align-items-center">
             <section>
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
@@ -499,6 +494,11 @@
     </script>
 </body>
 <script>
+    //FAQs Toggle Icons
+    $('button').on("click", function(){
+        $(this).toggleClass('active');
+    });
+
     //Fixed Navbar Top and Scroll
     window.addEventListener("scroll", function () {
         var nav = document.querySelector("header nav");
